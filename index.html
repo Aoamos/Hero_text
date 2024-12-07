@@ -3,34 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Hero Text</title>
   </head>
   <body>
-    <div class="header">
-      <div class="logo">Header Logo</div>
-      <div class="links">
-        <ul>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
-        </ul>
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <h1>Header Logo</h1>
+          <ul>
+            <li><a href="#">Header link one</a></li>
+            <li><a href="#">Header link two</a></li>
+            <li><a href="#">Header link three</a></li>
+          </ul>
+        </div>
+        <div class="main">
+          <div class="left">
+            <h1>
+              This website is <br />
+              awesome
+            </h1>
+            <p>
+              This website has some subtext that goes here under the main title.
+              it's a smaller font and the color is lower contrast.
+            </p>
+            <button class="btn">Sign up</button>
+          </div>
+          <div class="right">
+            <div class="big-box"></div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="body">
-      <div class="section-one">
+    <!-- Content display -->
+    <div class="cont-dis">
+      <div class="cont-header">Some random information</div>
+      <div class="pro">
+        <div class="pro1">
+          <div class="box"></div>
+          <p>this is some subtext under an illustration</p>
+        </div>
+        <div class="pro1">
+          <div class="box"></div>
+          <p>this is some subtext under an illustration</p>
+        </div>
+        <div class="pro1">
+          <div class="box"></div>
+          <p>this is some subtext under an illustration</p>
+        </div>
+        <div class="pro1">
+          <div class="box"></div>
+          <p>this is some subtext under an illustration</p>
+        </div>
+      </div>
+    </div>
+    <!-- quote -->
+    <div class="quote-section">
+      <blockquote cite="#">
+        <p class="text">
+          "Technology is a tool. It’s how we choose to use it that defines its
+          impact on society. When harnessed with purpose and intention,
+          technology has the power to connect us, solve complex problems, and
+          unlock new possibilities. But without careful thought, it can also
+          divide, mislead, or exacerbate challenges. The true potential of
+          technology lies not in the device itself, but in how we adapt it to
+          enrich lives, enhance creativity, and drive progress for a better
+          future."
+        </p>
+        <p class="cite">-- Anonymous</p>
+      </blockquote>
+    </div>
+    <div class="contact-section">
+      <div class="banner">
         <div class="left">
-          <h1 class="title">This website is awesome</h1>
-          <p class="text">
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lover contrast
+          <h3>Call to action! it's time!</h3>
+          <p>
+            Sign up for our product by clicking that button right over there!
           </p>
-          <button class="btn">Sign Up</button>
         </div>
         <div class="right">
-          <p class="text">this is a placeholder for an image</p>
+          <button class="btn">Sign up</button>
         </div>
       </div>
     </div>
+    <footer>
+      <p>Copyright © The Odin Project 2024</p>
+    </footer>
   </body>
 </html>
